@@ -1,4 +1,4 @@
-package com.codingpatterns.SlidingWindow;
+package com.codingpatterns.string.slidingwindow;
 
 import java.util.Arrays;
 

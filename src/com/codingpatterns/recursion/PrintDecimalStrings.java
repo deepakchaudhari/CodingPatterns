@@ -1,4 +1,4 @@
-package com.codingpatters.recursion;
+package com.codingpatterns.recursion;
 
 /**
  * Given number of digits n in a number, print all n-digit numbers whose digits are strictly increasing from left to right.
