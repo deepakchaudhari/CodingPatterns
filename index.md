@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Coding Patterns
+
+Coding interviews in not about going through 50-75 coding interview questions and resite them its about the Data Strucures and algorithm patterns. Below are some 
 
 You can use the [editor on GitHub](https://github.com/deepakchaudhari/CodingPatterns/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
