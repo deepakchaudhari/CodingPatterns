@@ -1,6 +1,6 @@
-## Welcome to Coding Patterns
+# Welcome to Coding Patterns
 
-Coding interviews in not about going through 50-75 coding interview questions and resite them its about the Data Strucures and algorithm patterns. Below are some coding patterns with examples
+Coding interviews in not about going through 50-75 coding interview questions and recite them its about the Data Strucures and algorithm patterns. Below are some coding patterns with examples
 
 # String
 ## Sliding Window
