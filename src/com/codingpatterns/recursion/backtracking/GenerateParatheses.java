@@ -1,11 +1,19 @@
 package com.codingpatterns.recursion.backtracking;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Given n pairs of parentheses, write a function to generate all combinations of well-formed
+ * parentheses.
+ *
+ * <p>Example 1:
+ *
+ * <p>Input: n = 3 Output: ["((()))","(()())","(())()","()(())","()()()"] Example 2:
+ *
+ * <p>Input: n = 1 Output: ["()"]
+ */
 public class GenerateParatheses {
-
 
     public static void main (String args[]){
         int inputValue = 3;
@@ -38,12 +46,12 @@ public class GenerateParatheses {
 
 
             if (openCount > 0) {
-                str[index] = '}';
+                str[index] = ')';
                 addPattern(openCount - 1, closeCount,str, result, index+1);
             }
 
             if (closeCount > 0) {
-                str[index] = '{';
+                str[index] = '(';
                 addPattern(openCount, closeCount-1,str, result, index+1);
             }
         }

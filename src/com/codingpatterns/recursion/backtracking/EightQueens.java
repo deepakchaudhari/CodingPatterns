@@ -4,8 +4,23 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two
+ * queens attack each other.
+ *
+ * <p>Given an integer n, return all distinct solutions to the n-queens puzzle.
+ *
+ * <p>Each solution contains a distinct board configuration of the n-queens' placement, where 'Q'
+ * and '.' both indicate a queen and an empty space, respectively.
+ *
+ * <p>Example 1:
+ *
+ * <p>Input: n = 4 Output: [[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
+ * Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above Example 2:
+ *
+ * <p>Input: n = 1 Output: [["Q"]]
+ */
 public class EightQueens {
-
 
     public static void main(String[] args) {
         int nQueens = 8;
