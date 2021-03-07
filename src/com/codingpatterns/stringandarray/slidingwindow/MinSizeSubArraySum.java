@@ -1,4 +1,4 @@
-package com.codingpatterns.string.slidingwindow;
+package com.codingpatterns.stringandarray.slidingwindow;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.codingpatterns.string;
+package com.codingpatterns.stringandarray;
 
 public class LongestCommonPrefix {
 
